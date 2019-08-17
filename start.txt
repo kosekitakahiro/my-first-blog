@@ -1,0 +1,24 @@
+python -m venv myvenv
+myvenv\Scripts\activate
+
+python -m pip install --upgrade pip
+
+requirements.txt‚É
+Django~=2.2.4
+(ÅV”Å)
+‚ğ‹L“ü
+
+pip install -r requirements.txt
+
+django-admin.exe startproject mysite .
+python manage.py migrate
+python manage.py runserver
+
+browser
+http://127.0.0.1:8000/
+
+
+python manage.py startapp blog
+
+python manage.py makemigrations blog
+python manage.py migrate blog
